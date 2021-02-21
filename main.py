@@ -5,11 +5,13 @@ import matplotlib.pyplot as plt
 print("Welcome to BucketAnalytics! Analyze your favorite NBA teams' daily performances and see how they compare against other teams in the league! Click Enter to get Started!")
 enter = input()
 '''
+# when NBA games have been played in the day
 response = requests.get(
     "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
 )
 obj = json.loads(response.text)
 ''' 
+# when NBA games have not been played in the day (in morning)
 data_set = {
   "meta": {
     "version": 1,
