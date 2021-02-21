@@ -1,11 +1,11 @@
 # bucket-analytics
 BucketAnalytics provides comprehensive data representations to help NBA fans and teams better understand the game of basketball
 
-Inspiration
+### Inspiration
 With the COVID-19 pandemic ongoing, basketball fans are unable to watch their favorite teams compete in stadiums. Thus, more fans are starting to use statistics to analyze how good their team is doing. To help these fans further understand their team’s performance, we have created a program that webscrapes data of all NBA games that happened that day. In addition to the daily scoreboard, the user can select our wide range of graphical data representations to maximize basketball efficiency. Our resources are also beneficial to NBA teams looking to see where they are struggling. For example, our Progressive Scoring Graph gives teams an idea at which point of the game they are underperforming. As a result, they can understand where to make substitutions and/or change their game plan.
 
-What it does
+### What it does
 BucketAnalytics is a web scraping service that collects daily NBA stats straight from stats.nba.com. Editor: repl.it Effective platform for collaboration with teammates Primary Programming Language: Python Efficient programming language for data scraping and analysis Data Format: JSON Data is scraped from the official NBA website in the form of a JSON file, which is subsequently broken down for relevant information APIs: MatPlotLib Creates vibrant, engaging graphical representations for the data sets
 
-What we learned
+### What we learned
 All three of us love basketball and wanted to build a project based of this. We knew there was an increase in the number of fantasy basketball players due to the Covid-19 Pandemic. Thus we thought of creating a resource center that analyzes statistics of teams and players, so fantasy players can understand if they should start or bench a player. We decided to get NBA data using online APIs. However, we could not find any free APIs that would give us data for stats of anything but current games being played. This challenge overwhelmed us at first but we then decided to switch our project idea. Our target audience switched from fantasy players to overall NBA fans and even NBA players and coaches. Using present data, NBA players and fans can assess how well the team performed as a unit and compared to other teams playing. We learned the fundamentals of data analysis through a web scraping project centered around our favorite sport.
